@@ -8,12 +8,11 @@
 }
 
 body {
-	font-family: 'Product Sans1', sans-serif;
+	font-family: karla, sans-serif;
 	background: linear-gradient(
           rgba(0, 0, 0, 0.5), 
           rgba(0, 0, 0, 0.5)
-        ),
-		url('img/bg.jpg');
+        );
 	background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
@@ -29,7 +28,7 @@ a, a:hover, a:focus, a:active, a:visited {
 }
 
 h1.hello {
-	margin-top: 270px;
+	/*padding-top: 20vh;*/
 }
 
 h1.hello, h1.timing {
@@ -69,4 +68,27 @@ input {
 
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: #fff;
+}
+
+.background {
+	width:100vw;
+	height:100vh;
+	position: fixed;
+	z-index: -1; filter: blur(12px) brightness(62%);
+	margin: 0;
+	padding: 0;
+	background: url(img/bg.jpg) center center transparent;
+}
+
+.padding-top {
+	padding-top: 12px;
+}
+
+.center-content {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	padding: 0;
 }
