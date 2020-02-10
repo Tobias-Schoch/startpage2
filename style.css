@@ -23,6 +23,11 @@ body {
 	font-size: 20px;
 }
 
+a, a:hover, a:focus, a:active, a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
 h1.hello {
 	margin-top: 270px;
 }
@@ -31,6 +36,7 @@ h1.hello, h1.timing {
 	margin-bottom: 85px;
 	font-size: 3.2rem;
 }
+
 input {
 	border:none;
 	border-bottom: 2px solid #fff;
@@ -42,10 +48,6 @@ input {
 	margin-bottom: 20px;
 }
 
-.search {
-	min-width: 850px;
-}
-
 .icons img {
 	position: relative;
 	height: 20px;
@@ -55,6 +57,7 @@ input {
 .icons a:not(:last-of-type) {
 	padding-right: 20px;	
 }	
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
   opacity: 1; /* Firefox */
