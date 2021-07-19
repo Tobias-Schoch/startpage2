@@ -17,4 +17,5 @@ function time() {
   span.textContent = h + ":" + m + ":" + s;
 }
 
+time()
 setInterval(time, 1000);
